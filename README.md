@@ -20,11 +20,11 @@ dependencies:
 require "interface_address"
 
 InterfaceAddress.get_interface_addresses.each do |a|
-  puts a.interface_name
+  puts a.interface_name      # interface_name : String
   print "  IP: "
-  puts a.ip_address.address
+  puts a.ip_address.address  # ip_address : Socket::IPAddress
   print "  NETMASK: "
-  puts a.netmask.address
+  puts a.netmask.address     # netmask : Socket::IPAddress
 end
 ```
 
