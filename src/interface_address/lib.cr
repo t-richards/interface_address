@@ -1,4 +1,4 @@
-lib Ifaddrs
+lib C
   struct Ifaddrs
     ifa_next : Ifaddrs*
     ifa_name : UInt8*

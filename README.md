@@ -45,10 +45,12 @@ eth0
   NETMASK: ffff:ffff:ffff:ffff::
 ```
 
-
 ## Development
 
 ```bash
+# Read man pages
+$ man 3 getifaddrs
+
 # Run tests
 $ crystal spec
 ```

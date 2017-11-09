@@ -6,7 +6,7 @@ module InterfaceAddress
   def self.get_interface_addresses
     output = [] of IfAddr
 
-    retval = Ifaddrs.getifaddrs(out current_ip)
+    retval = C.getifaddrs(out current_ip)
     return output if retval != 0
 
     while current_ip

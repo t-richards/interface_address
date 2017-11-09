@@ -4,6 +4,9 @@ version: 1.0.0
 authors:
   - Tom Richards <tom@tomrichards.net>
 
+description: |
+  Crystal library to retrieve your system's network interface addresses.
+
 crystal: 0.23.1
 
 license: MIT
