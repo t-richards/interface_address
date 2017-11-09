@@ -1,0 +1,9 @@
+name: interface_address
+version: 0.1.0
+
+authors:
+  - Tom Richards <>
+
+crystal: 0.23.1
+
+license: MIT
