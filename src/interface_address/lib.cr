@@ -9,5 +9,5 @@ lib Ifaddrs
     ifa_data : Void*
   end
 
-  fun getifaddrs(ifap : Ifaddrs**): Int32
+  fun getifaddrs(ifap : Ifaddrs**) : Int32
 end
