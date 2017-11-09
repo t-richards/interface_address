@@ -12,6 +12,7 @@ Add this to your application's `shard.yml`:
 dependencies:
   interface_address:
     github: t-richards/interface_address
+    version: ~> 1.0.0
 ```
 
 ## Usage
