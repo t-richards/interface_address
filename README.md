@@ -26,9 +26,30 @@ InterfaceAddress.get_interface_addresses.each do |a|
 end
 ```
 
+The output of the above program might look something like this:
+
+```
+lo
+  IP: 127.0.0.1
+  NETMASK: 255.0.0.0
+eth0
+  IP: 192.168.1.2
+  NETMASK: 255.255.255.0
+lo
+  IP: ::1
+  NETMASK: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+eth0
+  IP: fe80::1ff:fe23:4567:890a
+  NETMASK: ffff:ffff:ffff:ffff::
+```
+
+
 ## Development
 
-TODO: Write development instructions here
+```bash
+# Run tests
+$ crystal spec
+```
 
 ## Contributing
 
