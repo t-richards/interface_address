@@ -1,5 +1,7 @@
 # interface_address
 
+[![Build Status](https://travis-ci.org/t-richards/interface_address.svg?branch=master)](https://travis-ci.org/t-richards/interface_address)
+
 Crystal library to retrieve your system's network interface addresses.
 
 ## Installation
